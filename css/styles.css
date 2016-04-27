@@ -99,7 +99,6 @@ li.nav {
 .skills{
   text-align: center;
   }
-}
 
 .container {
   max-width: 500px;
@@ -181,8 +180,8 @@ hr{
 b{
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
+  }
 }
-
 @media (min-width: 768px) {
 
   .skills li{
@@ -272,7 +271,7 @@ b{
     margin:0 auto;
     width: 40%;
   }
-
+}
 @media (min-width: 1024px){
 
 
