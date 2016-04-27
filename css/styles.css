@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 a {
   text-decoration: none;
   color: #595959;
@@ -48,7 +50,6 @@ p{
 }
 
 #avatar-pic {
-  box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
   padding: 30px;
