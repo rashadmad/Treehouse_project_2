@@ -134,7 +134,7 @@ p{
 }
 
 .pic {
-  width:100%;
+  width: 100%;
 }
 
 ul{
@@ -172,10 +172,13 @@ li.nav {
       margin: 0 auto;
     }
 
+    ul {
+      margin-right: 30px;
+    }
 
     .lead-container {
       float: left;
-      width: 400px;
+      width: 800px;
     }
 
     .left.name {
