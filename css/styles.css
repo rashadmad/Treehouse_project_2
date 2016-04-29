@@ -12,12 +12,18 @@ a {
 }
 
 .left.name {
-margin-top: 18px;
+  margin-top: 18px;
+  font-size: .75em;
+}
+
+.right.contact-info {
+  margin-top: 13px;
+  font-size: .75em;
 }
 
 .name {
   text-align: center;
-
+  font-size: 1.3em;
 }
 
 h1,h2,h3,p   {
@@ -56,7 +62,7 @@ h2,p.pic-text {
 .lead {
 
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 30px;
 }
 
@@ -105,6 +111,10 @@ header,footer{
   background-color: #F0F0F0;
   padding: 5px;
   color:#F8F8F8;
+}
+
+footer{
+  padding: 20px;
 }
 
 p{
@@ -182,7 +192,8 @@ li.nav {
     }
 
     .left.name {
-    margin-top: 30px;
+    margin-top: 57px;
+    font-size: 1.1em;
     }
 
   #avatar-pic {
@@ -191,15 +202,17 @@ li.nav {
     clear:both;
   }
 
+  .right.contact-info {
+    font-size: .9em;
+    display: none;
+  }
+
   .wrapper {
 
     text-align: center;
     width: 100%;
   }
 
-  .right.contact-info {
-    display: none;
-  }
 
   .bottom-nav {
       display: inline;
@@ -223,7 +236,7 @@ li.nav {
   }
 
   .lead-container {
-    width: 450px;
+    width: 420px;
   }
 
   .follow {
@@ -320,6 +333,11 @@ li.nav {
     max-width: 700px;
     font-size: 1.8em;
 
+  }
+
+  .left.name {
+    margin-top: 57px;
+    font-size: 1.5em;
   }
 
 
