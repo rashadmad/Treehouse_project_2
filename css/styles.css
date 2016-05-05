@@ -14,11 +14,13 @@ a {
 .left.name {
   margin-top: 18px;
   font-size: .75em;
+  padding: 10px 2px;
 }
 
 .right.contact-info {
   margin-top: 13px;
   font-size: .75em;
+  padding: 10px 2px;
 }
 
 .name {
@@ -197,18 +199,18 @@ li.nav {
     }
 
     .left.name {
-    margin-top: 57px;
     font-size: 1.1em;
     }
+
+    .right.contact-info {
+      font-size: .9em;
+      display: none;
+    }
+
 
   #avatar-pic {
     display: inline-block;
     max-width: 450px;
-  }
-
-  .right.contact-info {
-    font-size: .9em;
-    display: none;
   }
 
   .wrapper {
@@ -339,8 +341,12 @@ li.nav {
   }
 
   .left.name {
-    margin-top: 57px;
     font-size: 1.5em;
+
+  }
+
+  .white {
+    background-color: white;
   }
 
 
