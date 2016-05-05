@@ -12,13 +12,15 @@ a {
 }
 
 .left.name {
-  margin-top: 18px;
+  margin-top: 28px;
   font-size: .75em;
+  padding: 35px 0px 0px 0px;
 }
 
 .right.contact-info {
-  margin-top: 13px;
+  margin-top: 23px;
   font-size: .75em;
+  padding: 35px 0px 0px 0px;
 }
 
 .name {
@@ -197,18 +199,17 @@ li.nav {
     }
 
     .left.name {
-    margin-top: 57px;
-    font-size: 1.1em;
+      font-size: 1.1em;
+    }
+
+    .right.contact-info {
+      font-size: .9em;
+      display: none;
     }
 
   #avatar-pic {
     display: inline-block;
     max-width: 450px;
-  }
-
-  .right.contact-info {
-    font-size: .9em;
-    display: none;
   }
 
   .wrapper {
@@ -339,7 +340,6 @@ li.nav {
   }
 
   .left.name {
-    margin-top: 57px;
     font-size: 1.5em;
   }
 
