@@ -14,13 +14,21 @@ a {
 .left.name {
   margin-top: 28px;
   font-size: .75em;
+<<<<<<< HEAD
   padding: 35px 0px 0px 0px;
+=======
+  padding: 10px 2px;
+>>>>>>> gh-pages
 }
 
 .right.contact-info {
   margin-top: 23px;
   font-size: .75em;
+<<<<<<< HEAD
   padding: 35px 0px 0px 0px;
+=======
+  padding: 10px 2px;
+>>>>>>> gh-pages
 }
 
 .name {
@@ -40,7 +48,7 @@ h1 {
   text-align: center;
 }
 
-.skills{
+.skills-list{
   margin: 0 auto;
   max-width: 600px;
 }
@@ -173,7 +181,7 @@ li.nav {
 
 @media (min-width: 768px) {
 
-  .skills li{
+  .skills-list li{
     display: inline;
     padding: 10px;
     line-height: 4;
@@ -199,13 +207,16 @@ li.nav {
     }
 
     .left.name {
-      font-size: 1.1em;
+
+    font-size: 1.1em;
+
     }
 
     .right.contact-info {
       font-size: .9em;
       display: none;
     }
+
 
   #avatar-pic {
     display: inline-block;
@@ -341,6 +352,11 @@ li.nav {
 
   .left.name {
     font-size: 1.5em;
+
+  }
+
+  .white {
+    background-color: white;
   }
 
 
