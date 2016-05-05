@@ -40,7 +40,7 @@ h1 {
   text-align: center;
 }
 
-.skills{
+.skills-list{
   margin: 0 auto;
   max-width: 600px;
 }
@@ -173,7 +173,7 @@ li.nav {
 
 @media (min-width: 768px) {
 
-  .skills li{
+  .skills-list li{
     display: inline;
     padding: 10px;
     line-height: 4;
